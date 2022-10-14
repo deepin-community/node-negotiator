@@ -1,0 +1,27 @@
+Source: node-negotiator
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 12)
+ , nodejs
+ , mocha <!nocheck>
+ , pkg-js-tools (>= 0.9.12~)
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-negotiator
+Vcs-Git: https://salsa.debian.org/js-team/node-negotiator.git
+Homepage: https://github.com/federomero/negotiator
+Rules-Requires-Root: no
+
+Package: node-negotiator
+Architecture: all
+Depends: ${misc:Depends}
+ , nodejs
+Description: HTTP content negotiator for Node.js
+ node-negotiator parses HTTP Accept headers to return preferred
+ media types, languages, charsets, encodings from lists of
+ available choices.
+ .
+ Node.js is an event-based server-side javascript engine.

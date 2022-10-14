@@ -1,0 +1,51 @@
+node-negotiator (0.6.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Change section to javascript
+  * Change priority to optional
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Update VCS fields to salsa
+  * Fix debian/copyright
+  * New upstream version 0.6.2
+  * Update debian/copyright
+  * Add "Rules-Requires-Root: no"
+  * Switch test and install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 08 Oct 2019 21:04:46 +0200
+
+node-negotiator (0.6.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Enable tests
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 04 Sep 2017 21:41:11 +0530
+
+node-negotiator (0.4.8-1) unstable; urgency=medium
+
+  [ Leo Iannacone ]
+  * Imported Upstream version 0.4.8
+  * Add autopkgtest suite
+  * Bump Standard-Version 3.9.6
+  * debian/docs: update README.md filename
+
+  [ Jérémy Lal ]
+  * Move to pkg-javascript
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 11 Oct 2014 15:19:39 +0200
+
+node-negotiator (0.4.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.5.
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 27 Apr 2014 17:11:18 +0200
+
+node-negotiator (0.3.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #726772)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 20 Oct 2013 17:33:37 +0200
